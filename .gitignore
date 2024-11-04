@@ -1,0 +1,27 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Конфигурация PyCharm
+.idea/
+
+# Артефакты сборки
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Папка результатов
+results/
+
