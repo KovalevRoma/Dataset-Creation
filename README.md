@@ -40,6 +40,9 @@ After fine-tuning, the model was tested on a simple Kotlin function prompt to as
 
 - Python 3.7 or later
 - A virtual environment (recommended)
+- transformers
+- datasets
+- torch
 
 ### Installation
 
@@ -47,3 +50,6 @@ After fine-tuning, the model was tested on a simple Kotlin function prompt to as
    ```bash
    git clone https://github.com/YOUR_USERNAME/Dataset-Creation.git
    cd Dataset-Creation
+	python3 -m venv myenv
+	pip install transformers datasets evaluate pytorch
+```
